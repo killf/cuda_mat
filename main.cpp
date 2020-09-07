@@ -5,8 +5,11 @@
 using namespace std;
 
 int main() {
-    Mat<float> a(3, 4);
+  Mat<> a(3, 4);
+  Mat<> b = {1, 2, 3, 4};
+  Mat<> c = {{1, 2, 3},
+             {4, 5, 6}};
 
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+  cout << c << endl;
+  return 0;
 }
